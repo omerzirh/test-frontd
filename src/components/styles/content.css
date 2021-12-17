@@ -1,0 +1,67 @@
+.landingContainer{
+    background-image: url('/src/assets/background.svg');
+    min-height: 100vh;
+    max-width: 100%;
+    height: auto;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color:black;
+}
+
+.leftCol{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align:left;
+}
+.landingInfo{
+    color:grey;
+}
+.landingElement{
+    margin-bottom: 3rem;
+}
+.rightElement{
+    display: flex;
+    justify-content: right;
+    align-items: left;
+    vertical-align: middle;
+    
+}
+.landingHeader{
+    align-items: left;
+    float: left;
+}
+.landingInfo{
+    align-items: left;
+    float: left;
+}
+.landingLeft{
+    justify-content: center;
+    align-items: center;
+     text-align: left;
+}
+@media only screen and (max-width: 375px) {
+    .landingLeft{
+         text-align: center !important;
+    }
+  }
+  .inputGroupContent{
+        border-radius: 12px;
+        height: 4rem;
+        border-color: black;
+        color: white;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .formControlContent{
+        border: 0;
+        height: 100%;
+        width: 10%;
+        padding-right: 5rem;
+        font-style: italic;
+        background-color: #F3F4FA;
+}

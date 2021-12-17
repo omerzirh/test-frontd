@@ -1,0 +1,55 @@
+h1{
+    color:black;
+}
+.dashboardContainer{
+    display: flex;
+}
+.upload{
+    border-style: dashed;
+    height: 250px;
+    border-color: #B9B7BD;
+}
+td{
+    height: 3rem;
+}
+.sidebarDashboard{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+    flex: 20;
+}
+.contentDashboard{
+ flex: 80;   
+}
+.searchButton{
+    margin: 5px;
+    height: 75%;
+    border-radius: 7px;
+    width: 5%;
+    background-color: #22a7f0;
+    font-weight: bold;
+}
+.formControlDashboard{
+    border: 0;
+    height: 100%;
+    width: 10%;
+    padding-right: 5rem;
+    font-style: italic;
+    background-color: #F3F4FA;
+}
+.inputGroupDashboard{
+    height: 2.5rem;
+    border-color: black;
+    color: white;
+    background-color: #F3F4FA;
+    box-shadow: 2rem;
+}
+.buttonUploadFile{
+    margin: 5px;
+    height: 75%;
+    border-radius:  7px;
+    width: 10%;
+    background-color: #22a7f0 !important;
+    font-weight: bolder;
+    float: right;
+}
