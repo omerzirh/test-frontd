@@ -11,7 +11,7 @@ You will need:
 From the command line, clone the repository:
 
 ```sh
-$ $git clone --branch omerzirh --single-branch https://github.com/Iagonorg/frontend-typescript-exam.git
+$ $git clone https://github.com/omerzirh/test-frontd.git
 
 ```
 
